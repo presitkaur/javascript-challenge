@@ -31,7 +31,7 @@ filterButton.on("click", () =>{
     //event listner
     d3.event.preventDefault();
     //Find and select the element in the HTML that can allow for event listening
-    var filerElem = d3.select("#datetime");
+    var filterElem = d3.select("#datetime");
     //Obtain the value entered into the filter element
     var filterVal = filterElem.property("value");
     //Filter the data for the specified date in the datetime column
